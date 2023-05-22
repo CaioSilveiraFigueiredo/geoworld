@@ -4,3 +4,6 @@ body{
             html, body{
                 background-size: cover;
 }
+p, h1, li {
+  color: white;
+}
