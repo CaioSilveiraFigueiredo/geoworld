@@ -12,12 +12,15 @@ body {
 ul {
     padding-left: 0px;
     list-style-type: none;
+    background-color: white;
+    display: flexbox;
 }
 
 li {
     display: inline-block;
+    padding: 1%;
 }
 #menu :hover{
   color: black;
-  background-color: white;
+  background-color: yellow;
 }
