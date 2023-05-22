@@ -28,3 +28,10 @@ li {
 a {
     color: white;
 }
+p {
+    background-color: white;
+    opacity: 70%;
+    color: black;
+    text-align: justify;
+    margin: auto;
+}
