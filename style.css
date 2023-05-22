@@ -1,1 +1,6 @@
-
+body{
+                background-image: url("https://cdn.dooca.store/624/posts/jci17nwuweeg7dvpluhy0ftq76wvki45ihnp.jpg")
+            }
+            html, body{
+                background-size: cover;
+}
