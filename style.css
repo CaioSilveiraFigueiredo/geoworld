@@ -22,6 +22,7 @@ li {
 #menu :hover{
   color: yellow;
   background-color: black;
+  opacity: 70%;
 }
 a {
     color: white;
