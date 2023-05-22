@@ -20,8 +20,8 @@ li {
     padding: 1%;
 }
 #menu :hover{
-  color: black;
-  background-color: yellow;
+  color: yellow;
+  background-color: black;
 }
 a {
     color: white;
