@@ -12,7 +12,6 @@ body {
 ul {
     padding-left: 0px;
     list-style-type: none;
-    background-color: white;
     display: flexbox;
 }
 
