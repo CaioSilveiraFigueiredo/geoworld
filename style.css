@@ -1,9 +1,17 @@
-body{
-                background-image: url("https://cdn.dooca.store/624/posts/jci17nwuweeg7dvpluhy0ftq76wvki45ihnp.jpg")
-            }
-            html, body{
-                background-size: cover;
+body {
+    background-image: url("https://cdn.dooca.store/624/posts/jci17nwuweeg7dvpluhy0ftq76wvki45ihnp.jpg")
 }
-p, h1, li {
-  color: white;
+
+html,
+body {
+    background-size: cover;
+}
+
+ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
 }
