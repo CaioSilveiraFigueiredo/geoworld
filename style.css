@@ -17,3 +17,7 @@ ul {
 li {
     display: inline-block;
 }
+#menu :hover{
+  color: black;
+  background-color: white;
+}
