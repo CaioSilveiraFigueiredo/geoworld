@@ -2,6 +2,8 @@ body {
     background-image: url("https://cdn.dooca.store/624/posts/jci17nwuweeg7dvpluhy0ftq76wvki45ihnp.jpg");
     text-align: center;
     color: white;
+    /* padding-top: 15px; */
+    margin: 0px;
 }
 
 html,
@@ -13,27 +15,71 @@ ul {
     padding-left: 0px;
     list-style-type: none;
     display: flexbox;
+    margin: 0px;
 }
 
 li {
     display: inline-block;
-    padding: 2%;
+    /* padding: 2%; */
+    padding: 10px;
     font-size: 130%;
+    margin: 0px;
 }
-#menu :hover{
-  color: yellow;
-  background-color: black;
-  opacity: 70%;
-}
-a {
+
+li a {
+    text-decoration-line: none;
+    padding: 10px 20px 10px 20px;
+    margin: 0px;
     color: white;
+
 }
+
+li a:hover {
+    color: yellow;
+    background-color: black;
+    opacity: 70%;
+}
+
 p {
     background-color: white;
     opacity: 70%;
     color: black;
     text-align: justify;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: 115%;
+
+}
+
+#globo {
+    position: relative;
+    height: 300px;
+    float: left;
+    margin: 15px;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+
+#mapas-sao-antigos p {
+    /* height: 300px; */
+    /* margin: 15px; */
+    padding: 15px;
+    position: relative;
+    display: block;
+}
+
+#mapas-sao-antigos {
+    margin-top: 0px;
+}
+
+nav {
+    background-color: rgba(28, 3, 3, 0.8);
+}
+
+#titulo {
+    background-color: rgba(28, 3, 3, 0.95);
+    padding-top: 30px;
+    margin: 0px;
+    padding-bottom: 30px;
 }
