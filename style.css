@@ -84,11 +84,11 @@ nav {
     padding-bottom: 30px;
 }
 
-#imagem-globo {
+#texto-introducao {
     float: left;
     position: relative;
 }
 
-#texto-introducao {
+#imagem-globo {
     position: absolute;
 }
