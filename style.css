@@ -85,7 +85,10 @@ nav {
 }
 
 #imagem-globo {
+    float: left;
+    position: relative;
 }
 
 #texto-introducao {
+    position: absolute;
 }
