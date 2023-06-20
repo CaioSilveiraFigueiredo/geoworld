@@ -7,30 +7,32 @@ body {
 
 #body-principal {
     background-image: url("https://cdn.dooca.store/624/posts/jci17nwuweeg7dvpluhy0ftq76wvki45ihnp.jpg");
+    background-repeat: no-repeat;
+    background-size: 103%;
+    background-position: unset;
 }
 
 #body-fuso-horario {
-    background-image: url(/Images/Background-fuso-horario.png);
+    background-image: url(../Images/Background-fuso-horario.png);
+    background-size: cover;
+    
 }
 
 #body-cartografia {
-    background-image: url(/Images/Background-teste.jpg);
+    background-image: url(../Images/Background-teste.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-size: auto;
     
 }
 
-html,
-body {
-    background-size: cover;
-}
 
 .menu {
     padding-left: 0px;
     list-style-type: none;
     display: flexbox;
     margin: 0px;
+    background-color: rgba(28, 3, 3, 0.95);
 }
 
 li {
@@ -91,9 +93,6 @@ p {
 nav {
     background-color: rgba(28, 3, 3, 0.8);
 }
-#menu-fuso-horario {
-
-}    
 
 .titulo {
     background-color: rgba(28, 3, 3, 0.95);
