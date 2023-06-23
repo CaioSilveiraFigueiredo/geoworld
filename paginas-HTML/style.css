@@ -100,3 +100,8 @@ nav {
     margin: 0px;
     padding-bottom: 30px;
 }
+
+.marcado {
+    color: yellow;
+    background-color: black;
+}
