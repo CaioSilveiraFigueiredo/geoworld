@@ -105,3 +105,11 @@ nav {
     color: yellow;
     background-color: black;
 }
+
+#video-cartografia {
+    text-align: center;
+}
+
+#texto-introducao {
+    margin-left: 15%;
+}
