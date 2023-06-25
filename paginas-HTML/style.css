@@ -141,8 +141,8 @@ p {
     justify-content: center;
 }
 
-#texto-introducao {
-    margin-left: 15%;
+.texto-introducao {
+    margin-left: 10%;
 }
 
 #apresentacao-creditos {
