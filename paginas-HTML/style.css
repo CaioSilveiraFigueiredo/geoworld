@@ -115,7 +115,7 @@ nav {
 
 .marcado {
     color: yellow;
-    background-color: black;
+    background-color: gray;
 }
 
 #video-cartografia {
@@ -160,4 +160,24 @@ nav {
 
 #section-creditos{
     font-family: 'Texturina', serif;
+}
+
+#subtitulo-centralizado {
+    text-align: center;
+    color: black;
+}
+
+.mapas-historicos {
+    color: black;
+    text-align: left;
+    margin-left: 2%;
+}
+
+.textos-mapas {
+    font-size: 17px;
+}
+
+.img-mapas {
+    width: 200px;
+    height: 200px;
 }
