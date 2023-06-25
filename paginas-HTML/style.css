@@ -162,22 +162,27 @@ nav {
     font-family: 'Texturina', serif;
 }
 
-#subtitulo-centralizado {
+.subtitulo-centralizado {
     text-align: center;
     color: black;
 }
 
-.mapas-historicos {
+.mapas-historicos, .principais-elementos {
     color: black;
     text-align: left;
     margin-left: 2%;
 }
 
-.textos-mapas {
+.textos-mapas, .texto-elementos {
     font-size: 17px;
 }
 
 .img-mapas {
     width: 200px;
     height: 200px;
+}
+
+.img-elementos {
+    width: 400px;
+    height: 400px;
 }
