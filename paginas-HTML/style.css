@@ -12,8 +12,9 @@ body {
 #body-principal {
     background-image: url("https://cdn.dooca.store/624/posts/jci17nwuweeg7dvpluhy0ftq76wvki45ihnp.jpg");
     background-repeat: no-repeat;
-    background-size: 103%;
+    background-size: cover;
     background-position: unset;
+    background-attachment: fixed;
 }
 
 #body-fuso-horario {
