@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&family=Texturina:wght@100&display=swap');
+
+body {
+    text-align: center;
+    color: white;
+    /* padding-top: 15px; */
+    margin: 0px;
+}
+
+#body-principal {
+    background-image: url("https://cdn.dooca.store/624/posts/jci17nwuweeg7dvpluhy0ftq76wvki45ihnp.jpg");
+    background-repeat: no-repeat;
+    background-size: 103%;
+    background-position: unset;
+}
+
+#body-fuso-horario {
+    background-image: url(../Images/Background-fuso-horario.png);
+    background-size: cover;
+    
+}
+
+#body-cartografia {
+    background-image: url(../Images/Background-teste.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: auto;
+    
+}
+
+
+.menu {
+    padding-left: 0px;
+    list-style-type: none;
+    display: flexbox;
+    margin: 0px;
+    background-color: rgba(28, 3, 3, 0.95);
+}
+
+.menu li {
+    display: inline-block;
+    /* padding: 2%; */
+    padding: 10px;
+    font-size: 130%;
+    margin: 0px;
+}
+
+.menu li a {
+    text-decoration-line: none;
+    padding: 10px 20px 10px 20px;
+    margin: 0px;
+    color: white;
+
+}
+
+.menu li a:hover {
+    color: yellow;
+    background-color: black;
+    opacity: 70%;
+}
+
+p {
+    background-color: white;
+    opacity: 70%;
+    color: black;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    font-family: 'Texturina', serif;
+}
+
+.paragrafo-inicial {
+    font-size: 40px;
+    text-decoration: solid;
+    color:black;
+}
+
+#globo {
+    position: relative;
+    height: 300px;
+    float: left;
+    margin: 15px;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+
+#mapas-sao-antigos p {
+    /* height: 300px; */
+    /* margin: 15px; */
+    padding: 15px;
+    position: relative;
+    display: block;
+}
+
+#mapas-sao-antigos {
+    margin-top: 0px;
+}
+
+nav {
+    background-color: rgba(28, 3, 3, 0.8);
+}
+
+.titulo {
+    background-color: rgba(28, 3, 3, 0.95);
+    padding-top: 30px;
+    margin: 0px;
+    padding-bottom: 30px;
+}
+
+.marcado {
+    color: yellow;
+    background-color: black;
+}
+
+#video-cartografia {
+    display: flex;
+    justify-content: center;
+}
+
+#texto-introducao {
+    margin-left: 15%;
+}
+
+#apresentacao-creditos {
+    text-align: center;
+    color: black;
+}
+
+#lista-integrantes, #fontes {
+    color: black;
+    text-align: left;
+    margin-left: 2%;
+}
+
+#fontes-titulo {
+    color: black;
+    text-align: left;
+    margin-left: 2%;
+}
+
+#fontes li a {
+    color: blue;
+}
+
+#titulo-main {
+    background-color: rgba(28, 3, 3, 0.95);
+    padding-top: 5px;
+    margin: 0px;
+    padding-bottom: 5px;
+    font-family: 'Rubik Distressed', cursiva;
+    font-size: 100px;
+}
