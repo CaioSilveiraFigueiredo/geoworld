@@ -31,6 +31,13 @@ body {
     
 }
 
+#body-elementos-dos-mapas{
+    background-image: url(../Images/Background-teste.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
 .menu {
     padding-left: 0px;
     list-style-type: none;
@@ -63,13 +70,14 @@ body {
 }
 
 p {
-    background-color: white;
-    opacity: 90%;
+   background-color: rgba(255, 255, 255, 0.9);
+    color: black;
     color: black;
     text-align: justify;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 20px;
+    text-align: justify;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 115%;
     font-family: 'Texturina', serif;
     font-weight: bolder;
 }
@@ -100,7 +108,9 @@ p {
 }
 
 #mapas-sao-antigos {
-    margin-top: 0px;
+    padding: 15px;
+    position: relative;
+    display: block;
 }
 
 
@@ -198,4 +208,34 @@ p {
 .img-tipos {
     width: 400px;
     height: 400px;
+}
+
+#fontes li a {
+    color: blue;
+}
+
+#video-cartografia{
+    width: 700px;
+    height: 394px;
+}
+
+table{
+    border-collapse: collapse;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 10px;
+}
+
+td{
+    border: solid 1px black;
+    color:black;
+    background-color: azure;
+}
+
+thead tr:nth-child( 2 ) th{
+    background-color: blue;
+}
+thead tr:nth-child( 1 ) th{
+    background-color: rgba(0, 0, 255, 0.7);
+    font-size: 120%;
 }
