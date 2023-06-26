@@ -98,6 +98,7 @@ p {
     display: inline-block;
     width: 250px;
     height: 250px;
+    cursor: pointer;
 }
 
 #mapas-sao-antigos p {
@@ -209,6 +210,15 @@ p {
 .img-tipos {
     width: 400px;
     height: 400px;
+}
+
+.animacoes {
+    animation: flutuar .5s ease-in-out 0s 10 alternate;
+}
+  
+@keyframes flutuar {
+    from { top: 0;     }
+    to   { top: -30px; }
 }
 
 #fontes li a {
