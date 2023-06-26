@@ -18,7 +18,7 @@ body {
 }
 
 #body-fuso-horario {
-    background-image: url(/geoworld/Images/Background-fuso-horario.png);
+    background-image: url(Images/Background-fuso-horario.png);
     background-size: cover;
     background-repeat: no-repeat;
 
