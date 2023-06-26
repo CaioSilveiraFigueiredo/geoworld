@@ -18,7 +18,7 @@ body {
 }
 
 #body-fuso-horario {
-    background-image: url(/geoworld-main/docs/Images/Background-fuso-horario.png);
+    background-image: url(/docs/Imagens/Fundo-fuso-horario.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -29,7 +29,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-image: url(/geoworld-main/Images/Background-teste.jpg);
+    background-image: url(/docs/Images/Background-teste.jpg);
 }
 
 #body-elementos-dos-mapas {
