@@ -18,7 +18,7 @@ body {
 }
 
 #body-fuso-horario {
-    background-image: url(/docs/Imagens/Fundo-fuso-horario.png);
+    background-color: pink;
     background-size: cover;
     background-repeat: no-repeat;
 
