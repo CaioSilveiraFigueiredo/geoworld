@@ -309,3 +309,24 @@ thead tr:nth-child(1) th {
     background-color: rgba(255, 255, 255, 0.7);
     margin: 0% 40% 0% 40%;
 }
+
+.div-topo {
+    display: flex;
+    justify-content: end;
+}
+
+.voltar-topo {
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+    border: 2px solid white;
+    font-size: 35px;
+    font-weight: lighter;
+    width: 1em;
+    height: 1em;
+    text-decoration: none;
+}
+
+.voltar-topo {
+    justify-content: center;
+}
